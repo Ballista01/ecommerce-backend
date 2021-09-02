@@ -1,0 +1,38 @@
+{
+  "name": "ecommerce-backend",
+  "version": "0.0.1",
+  "description": "An ecommerce backend app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ballista01/ecommerce-backend.git"
+  },
+  "keywords": [
+    "ExpressJS"
+  ],
+  "author": "Wenxue Zhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ballista01/ecommerce-backend/issues"
+  },
+  "homepage": "https://github.com/Ballista01/ecommerce-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "prettier-eslint": "^13.0.0"
+  }
+}
