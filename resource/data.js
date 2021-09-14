@@ -1,6 +1,8 @@
 import bcrypt from "bcrypt";
+import dotenv from "dotenv";
+dotenv.config();
 
-const salt = 7;
+const salt = parseInt(process.env.SALT);
 
 const data = {
   users: [
